@@ -1,0 +1,345 @@
+@media screen and (max-width: 575px){
+  .wrapper{
+    max-width: 575px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .container{
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  header{
+    margin-bottom: 1.5rem;
+  }
+
+  header img{
+    width: 7.142em;
+  }
+
+  .left_block{
+    flex: 0 0 100%;
+    padding: 0
+  }
+
+  h1{
+    font-size: 3em;
+  }
+
+  h2{
+    font-size: .8em;
+  }
+
+  .left_block_info {
+    font-size: 1.2em;
+    margin: 0 0 2rem 0;
+  }
+
+  .button_list{
+    display: inline;
+  }
+
+  .button_item a{
+    margin: 0 auto 1.25rem auto;
+    width: 75%;
+    font-size: .8em;
+  }
+
+  .right_block{
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .video{
+    width: 100%;
+    height: 12.5rem;
+  }
+
+  footer{
+    max-width: 575px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_up{
+    padding: 1rem;
+  }
+
+  footer img {
+    height: 1rem;
+  }
+
+  .link_item a {
+    margin: 0 0 0 .5rem;
+    font-size: .8em;
+    text-align: center;
+  }
+
+  .footer_down{
+    display: block;
+    padding: 1rem;
+  }
+
+  .left{
+    margin-bottom: .5rem;
+  }
+
+  .right{
+    display: inline-block;
+    font-size: .8em;
+  }
+
+  .mail{
+    margin-bottom: .5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .wrapper{
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .container{
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  header{
+    margin-bottom: 2rem;
+  }
+
+  header img{
+    width: 9em;
+  }
+
+  .left_block{
+    flex: 0 0 100%;
+    padding: 0
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  h2{
+    font-size: 1.2em;
+  }
+
+  .left_block_info {
+    font-size: 2em;
+    margin: 0 0 2rem 0;
+  }
+
+  .button_list{
+    justify-content: flex-start;
+  }
+
+  .button_item a{
+    margin: 0 auto 1.25rem auto;
+    font-size: 1em;
+    margin-right: 1rem;
+  }
+
+  .right_block{
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .video{
+    width: 100%;
+    height: 20rem;
+  }
+
+  footer{
+    max-width: 786px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_up{
+    padding: 1rem;
+  }
+
+  footer img {
+    height: 1rem;
+  }
+
+  .link_item a {
+    margin: 0 0 0 .5rem;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .footer_down{
+    padding: 1rem;
+    font-size: 1em;
+  }
+
+  .left{
+    margin-bottom: .5rem;
+  }
+
+  .copyright a{
+    font-size: 1em;
+  }
+
+  .right{
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .mail{
+    margin-bottom: .5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+  .wrapper{
+    max-width: 992px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem 0 1rem;
+  }
+
+  .container{
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  header{
+    margin-bottom: 2rem;
+  }
+
+  header img{
+    width: 9em;
+  }
+
+  .left_block{
+    flex: 0 0 100%;
+    padding: 0
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  h2{
+    font-size: 1.2em;
+  }
+
+  .left_block_info {
+    font-size: 2em;
+    margin: 0 0 2rem 0;
+  }
+
+  .button_list{
+    justify-content: flex-start;
+  }
+
+  .button_item a{
+    margin: 0 auto 1.25rem auto;
+    font-size: 1em;
+    margin-right: 1rem;
+  }
+
+  .right_block{
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .video{
+    width: 100%;
+    height: 20rem;
+  }
+
+  footer{
+    max-width: 992px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer_up{
+    padding: 1rem;
+  }
+
+  footer img {
+    height: 1rem;
+  }
+
+  .link_item a {
+    margin: 0 0 0 .5rem;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .footer_down{
+    padding: 1rem;
+    font-size: 1em;
+  }
+
+  .left{
+    margin-bottom: .5rem;
+  }
+
+  .copyright a{
+    font-size: 1em;
+  }
+
+  .right{
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .mail{
+    margin-bottom: .5rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1439px){
+  .wrapper{
+    max-width: 1439px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  header {
+    margin-bottom: 3.25rem;
+  }
+
+  .container{
+    margin-bottom: 3rem;
+  }
+
+  .left_block{
+    padding-right: 1rem;
+  }
+
+  .left_block_info {
+    margin: 0 0 2rem 0;
+  }
+
+  .button_list{
+    justify-content: flex-start;
+  }
+
+  .right_block {
+    flex: 0 1 55%;
+  }
+
+  .video{
+    width: 100%;
+    height: 100%;
+  }
+
+  footer{
+    max-width: 1439px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
