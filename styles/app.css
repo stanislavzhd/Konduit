@@ -4,10 +4,9 @@
 
 body{
   background-color: #fff;
-  /* Add right color */
   font-size: 14px;
   font-family: 'Open Sans', 'Arial', sans-serif; 
-  /* Add right font */
+  color: #0e0c2e;
 }
 
 li{
@@ -19,11 +18,16 @@ a{
 }
 
 .wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container_all{
   max-width: 1440px;
-  /* Add right width */
-  width: 100%;
   margin: 0 auto;
   padding: 40px 80px 0 80px;
+  flex: 1;
 }
 
 /* start header */
@@ -49,45 +53,42 @@ header{
 }
 
 h1{
-  color: #0e0c2e;
   font-weight: 700;
   font-size: 4em;
   line-height: 1.14;
-  margin: 0 0 1.5rem 0;
+  margin-bottom: 1.5rem;
 }
 
 h2{
   text-transform: uppercase;
   font-weight: 800;
   color: #fdb030;
-  margin: 0 0 1.25rem 0;
+  margin-bottom: 1.25rem;
   font-size: 1em;
 }
 
 .left_block_info{
   color: #616274;
   font-size: 1.571em;
-  margin: 0 0 3.25rem 0;
+  margin-bottom: 3.25rem;
 }
 
-.button_list{
+.button{
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
 }
 
 .button_item a{
   display: block;
   padding: 1rem;
   margin-right: 1rem;
-  width: 12.5rem;
   border: 2px solid #fdb030;
-  text-align: center;
   color: #fdb030;
+  text-align: center;
   font-weight: 700;
   transition: .8s;
+  width: 12.5rem;
 }
 
 .button_item a:hover{
@@ -108,22 +109,16 @@ video{
 
 /* start footer */
 
-footer{
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 footer img{
   height: 1.687rem;
-}
+} 
 
 .footer_up{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f0f0f0;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2rem 5rem;
 }
 
 .link_list{
@@ -133,7 +128,7 @@ footer img{
 }
 
 .link_item a{
-  margin: 0 0 0 3.25rem;
+  margin-left: 3.25rem;
   display: inline-block;
   color: #0e0c2e;
   line-height: 1.5;
@@ -152,7 +147,7 @@ footer img{
   align-items: center;
   background-color: #010110;
   color: #fff;
-  padding: 1.375rem 5rem;
+  padding: 2rem 5rem;
 }
 
 .left{
@@ -173,24 +168,27 @@ footer img{
 }
 
 .right{
-  display: flex;
-  justify-content: space-between;
   flex: 0 0 55%;
 }
 
-.right p{
-  margin: 0 .5rem 0 0;
-}
-
-.mail, .location {
+.contacts{
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
-.mail img,
-.location img{
-  height: 1rem;
-  padding-right: .5rem;
+.mail_info{
+  background-image: url(../images/icon_mail.png);
+  background-repeat: no-repeat;
+  padding-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.location_info{
+  background-image: url(../images/icon_location.png);
+  background-repeat: no-repeat;
+  padding-left: 1.5rem;
 }
 
 .mail_info a,

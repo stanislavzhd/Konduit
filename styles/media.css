@@ -1,5 +1,5 @@
 @media screen and (max-width: 575px){
-  .wrapper{
+  .container_all{
     max-width: 575px;
     width: 100%;
     margin: 0 auto;
@@ -37,7 +37,7 @@
     margin: 0 0 2rem 0;
   }
 
-  .button_list{
+  .button{
     display: inline;
   }
 
@@ -78,12 +78,9 @@
   }
 
   .footer_down{
-    display: block;
+    flex-direction: column-reverse;
     padding: 1rem;
-  }
-
-  .left{
-    margin-bottom: .5rem;
+    align-items: flex-start;
   }
 
   .right{
@@ -91,13 +88,23 @@
     font-size: .8em;
   }
 
-  .mail{
-    margin-bottom: .5rem;
+  .contacts{
+    display: inline-block;
+    font-size: 1.3em;
+  }
+
+  .mail_info{
+    margin-right: 0;
+    margin-bottom:  .5rem ;
+  }
+
+  .location_info{
+    margin-bottom:  .5rem ;
   }
 }
 
 @media (min-width: 576px) and (max-width: 768px){
-  .wrapper{
+  .container_all{
     max-width: 768px;
     width: 100%;
     margin: 0 auto;
@@ -135,7 +142,7 @@
     margin: 0 0 2rem 0;
   }
 
-  .button_list{
+  .button{
     justify-content: flex-start;
   }
 
@@ -193,13 +200,18 @@
     font-size: 1em;
   }
 
-  .mail{
-    margin-bottom: .5rem;
+  .contacts{
+    display: inline-block;
+  }
+
+  .mail_info{
+    margin-right: 0;
+    margin-bottom:  .5rem ;
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px){
-  .wrapper{
+  .container_all{
     max-width: 992px;
     width: 100%;
     margin: 0 auto;
@@ -237,7 +249,7 @@
     margin: 0 0 2rem 0;
   }
 
-  .button_list{
+  .button{
     justify-content: flex-start;
   }
 
@@ -290,18 +302,18 @@
     font-size: 1em;
   }
 
-  .right{
+  .contacts{
     display: inline-block;
-    font-size: 1em;
   }
 
-  .mail{
-    margin-bottom: .5rem;
+  .mail_info{
+    margin-right: 0;
+    margin-bottom:  .5rem ;
   }
 }
 
 @media (min-width: 993px) and (max-width: 1439px){
-  .wrapper{
+  .container_all{
     max-width: 1439px;
     width: 100%;
     margin: 0 auto;
@@ -324,7 +336,7 @@
     margin: 0 0 2rem 0;
   }
 
-  .button_list{
+  .button {
     justify-content: flex-start;
   }
 
